@@ -65,7 +65,7 @@ const routes = [
 
 const router = createRouter({
   routes,
-  history: createWebHistory(),
+  history: createWebHistory(process.env.BASE_URL),
 
 })
 // eslint-disable-next-line

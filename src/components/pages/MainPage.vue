@@ -6,7 +6,7 @@
 				<div class="main__gallery">
 					<div class="main__gallery-item" v-for="project in projects" :key="project.text">
 						<div class="main__gallery-item-img">
-							<img :src="require(`../../assets/${project.previewLink}`)" alt="image">
+							<img :src="require(`../../assets/img/${project.previewLink}`)" alt="image">
 						</div>
 						<div class="main__gallery-textBlock">
 
