@@ -41,7 +41,6 @@ export default {
 	data() {
     return {
       link: 'hobby-art.webp',
-			
 		}
 	},
 	computed: {
