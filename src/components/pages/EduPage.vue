@@ -19,7 +19,7 @@
 						<img
 							v-if="sertificate.additionalImage"
 							:src="require(`../../assets/img/${ sertificate.additionalImage }`)"
-							alt="sertificat"
+							alt="diploma"
 							class="back"
 						>
 						<div
@@ -51,9 +51,6 @@
 				]
 			}
 		},
-		computed: {
-
-		}
   }
 </script>
 

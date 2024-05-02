@@ -17,7 +17,7 @@
 								{{ project.description }}
 							</p>
 							<a :href="project.projectLink" target="_blank" class="main__gallery-textBlock-button lng-openProject">
-								Open project
+								{{ $t(`${this.checkedLanguage}.openProject`) }}
 							</a>
 						</div>
 						<div class="main__gallery-textBlock right">
@@ -41,10 +41,18 @@ export default {
 	data() {
     return {
       link: 'hobby-art.webp',
-			projects: [
+			
+		}
+	},
+	computed: {
+		checkedLanguage() {
+				return this.$i18next.language
+		},
+		projects() {
+			return [
 				{
 					text: 'Hobby Art',
-					description: 'flexbox, grid, jquery, java script, swippers, switcher, mobile view, animation',
+					description: this.$t(`${this.checkedLanguage}.descProjectHobbyart`),
 					value: 'hobbyart',
 					previewLink: 'hobby-art.webp',
 					gitHubLink: 'https://github.com/AnnaKhiz/HobbyArt-GULP',
@@ -52,7 +60,7 @@ export default {
 				},
         {
           text: 'Hillel',
-					description: 'flexbox, jquery, swippers, switcher, mobile view',
+					description: this.$t(`${this.checkedLanguage}.descProjectHillel`),
 					value: 'hillel',
           previewLink: 'final-hillel.webp',
           gitHubLink: 'https://github.com/AnnaKhiz/Hillel-final',
@@ -60,7 +68,7 @@ export default {
 				},
         {
           text: 'Localize',
-					description: 'flexbox, mobile view, jquery',
+					description: this.$t(`${this.checkedLanguage}.descProjectLocalize`),
 					value: 'localize',
 					previewLink: 'localize.webp',
 					gitHubLink: 'https://github.com/AnnaKhiz/Localize',
@@ -68,7 +76,7 @@ export default {
 				},
         {
           text: 'Meliorit',
-					description: 'flexbox, jquery, swippers, mobile view',
+					description: this.$t(`${this.checkedLanguage}.descProjectMeliorit`),
 					value: 'meliorit',
 					previewLink: 'meliorit.webp',
 					gitHubLink: 'https://github.com/AnnaKhiz/Meliorit',
@@ -76,7 +84,7 @@ export default {
 				},
         {
           text: 'Beauty',
-					description: 'flexbox, jquery, modal, mobile view',
+					description: this.$t(`${this.checkedLanguage}.descProjectBeauty`),
 					value: 'beauty',
 					previewLink: 'beauty.webp',
 					gitHubLink: 'https://github.com/AnnaKhiz/Beauty-Site',
@@ -84,7 +92,7 @@ export default {
 				},
         {
           text: 'FoxDigital',
-					description: 'flexbox, jquery, java script, swippers, switcher for 2 color schemes, mobile view',
+					description: this.$t(`${this.checkedLanguage}.descProjectFoxDigital`),
 					value: 'foxdigital',
 					previewLink: 'fox-digital.webp',
 					gitHubLink: 'https://github.com/AnnaKhiz/FoxDigital-2-colors',
@@ -92,7 +100,7 @@ export default {
 				},
         {
           text: 'Future academy',
-          description: 'java script, flex, grid, bootstrap, swiper',
+          description: this.$t(`${this.checkedLanguage}.descProjectFutureAcademy`),
           value: 'futureacademy',
           previewLink: 'future-academy.webp',
           gitHubLink: 'https://github.com/AnnaKhiz/future-academy',
