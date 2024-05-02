@@ -2,7 +2,7 @@
 	<div class="wrapper">
 		<main class="main">
 			<div class="container">
-				<h2 class="main__education-title lng-educationLabel">Education</h2>
+				<h2 class="main__education-title lng-educationLabel">{{ $t(`${this.checkedLanguage}.educationLabel`) }}</h2>
 				<div class="main__education-block">
 					<div
 						v-for="(sertificate, index) in sertificats"
@@ -26,7 +26,9 @@
 							v-if="sertificate.details"
 							class="main__education-item-bg"
 						>
-							<a class="main__education-item-button" :href="sertificate.link" target="_blank">View details</a>
+							<a class="main__education-item-button" :href="sertificate.link" target="_blank">
+								{{ $t(`${this.checkedLanguage}.viewDetails`) }}
+							</a>
 						</div>
 					</div>
 				</div>
@@ -51,6 +53,11 @@
 				]
 			}
 		},
+		computed: {
+			checkedLanguage() {
+				return this.$i18next.language
+		},
+		}
   }
 </script>
 

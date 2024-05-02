@@ -74,4 +74,5 @@ export const ru = {
   "russianLang": "Русский (отлично)",
   "englishLang": "Английский (intermediate)",
   "node": "(изучаю с января 2024)",
+  "viewDetails": "Подробности"
 }

@@ -75,6 +75,7 @@ export const en = {
   "ukrainianLang": "Ukrainian (native)",
   "russianLang": "Russian (native)",
   "englishLang": "English (intermediate)",
+  "viewDetails": "View details"
 }
 
 
