@@ -17,18 +17,18 @@
           <div class="main__gallery-textBlock">
             <h3 class="main__gallery-textBlock-label">
               React & Redux <br>
-              <span class="lng-reactUserListLabel">{{ item.subtitle }}</span>
+              <span class="lng-reactUserListLabel">{{ $t(`${checkedLanguage}.${item.subtitle}`) }}</span>
             </h3>
 
             <p class="main__gallery-textBlock-info lng-descProjecReactUsers">
-              {{ $t(`${this.checkedLanguage}.${item.description}`) }}
+              {{ item.description }}
             </p>
 
             <a 
               :href="`http://anna-khizhniak.site/portfolio/${item.projectLink}`" 
               class="main__gallery-textBlock-button lng-openProject"
             >
-              {{ $t(`${this.checkedLanguage}.${buttonOpenProject}`) }}
+              {{ $t(`${checkedLanguage}.openProject`) }}
             </a>
           </div>
 
@@ -58,7 +58,7 @@
             label: 'React & Redux', 
             preview: 'react-users.webp', 
             subtitle: 'reactUserListLabel',
-            description: 'descProjecReactUsers', 
+            description: 'java script, React, Redux, Rest API', 
             projectLink: 'react-user-list',
             github: 'https://github.com/AnnaKhiz/Hillel-React-practice' 
           },
@@ -82,9 +82,6 @@
       }
     },
     computed: {
-      buttonOpenProject() {
-        return this.$t(`${this.checkedLanguage}.openProject`)
-      },
       checkedLanguage() {
 				return this.$i18next.language
       },

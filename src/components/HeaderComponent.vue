@@ -15,7 +15,7 @@
 			<div class="header__flexbox">
 				<div class="header__name">
 					<p class="lng-name">
-						{{ $t(`${checkedLanguage}.title`) }}
+						{{ $t(`${checkedLanguage}.name`) }}
 					</p>
 				</div>
 
@@ -24,8 +24,8 @@
 						<li><span @click="$router.push('/')" class="lng-portfolio" data-nav-link="index"> {{ $t(`${checkedLanguage}.portfolio`)  }}</span></li>
 						<li><span @click="$router.push('cms')" data-nav-link="cms">CMS</span></li>
 						<li><span @click="$router.push('react')" data-nav-link="react"> React</span></li>
-						<li><span href="" target="_blank" class="lng-cv" data-nav-link="cv">{{ $t(`${checkedLanguage}.cv`) }}</span></li>
-						<li><span href="https://github.com/AnnaKhiz?tab=repositories" target="_blank" data-nav-link="github">GitHub</span></li>
+						<li><a :href="`./cv_${$i18next.language}.pdf`" target="_blank" class="lng-cv" data-nav-link="cv">{{ $t(`${checkedLanguage}.cv`) }}</a></li>
+						<li><a href="https://github.com/AnnaKhiz?tab=repositories" target="_blank" data-nav-link="github">GitHub</a></li>
 						<li><span @click="$router.push('edu')" class="lng-edu" data-nav-link="education">{{ $t(`${checkedLanguage}.edu`) }}</span></li>
 					</ul>
 				</nav>
@@ -61,12 +61,16 @@
 				return this.$i18next.language
 			}
 		},
-		
+
 		watch: {
 			checkedLanguage() {
 				location.href = `${location.pathname}#${this.checkedLanguage}`;
 			}
 		},
+
+		mounted() {
+			this.checkedLanguage();
+		}
 		
   }
 </script>
