@@ -1,0 +1,23 @@
+export const uk = {
+  "title": "Хiжняк Анна - Портфолiо",
+  "name": "Хiжняк Анна",
+  "portfolio": "Портфолiо",
+  "cv": "Резюме",
+  "edu": "Освіта/Досвід",
+  "openProject": "Відкрити сайт",
+  "descProjectHobbyart": "флексбокс, грід, jquery, java script, слайдер, перемикач, анімація, адаптивний дизайн",
+  "descProjectHillel": "флексбокс, грід, jquery, java script, слайдер, перемикач, адаптивний дизайн, regexp, валідація форм",
+  "descProjectLocalize": "флексбокс, адаптивний дизайн, jquery",
+  "descProjectMeliorit": "флексбокс, jquery, слайдер, адаптивний дизайн",
+  "descProjectBeauty": "флексбокс, jquery, модальне вікно, адаптивний дизайн",
+  "descProjectFoxDigital": "флексбокс, jquery, java script, слайдер, перемикач кольору сайту, адаптивний дизайн",
+  "descProjectFutureAcademy": "флексбокс, грід, java script, bootstrap, слайдер, таби",
+  "descProjectWPMeliorit": "wordpress, флексбокс, jquery, слайдер, адаптивний дизайн",
+  "descProjecReactUsers": "java script, React, Redux, Rest API",
+  "reactUserListLabel": "(список користувачів)",
+  "reactPromoLabel": "(генератор промо-кодів)",
+  "reactExchangeLabel": "(обмін валют)",
+  "experienceLabel": "Досвід",
+  "educationLabel": "Освіта",
+  "viewDetails": "Подробиці"
+}
