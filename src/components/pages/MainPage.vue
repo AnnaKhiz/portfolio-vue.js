@@ -55,7 +55,7 @@ export default {
 					value: 'hobbyart',
 					previewLink: 'hobby-art.webp',
 					gitHubLink: 'https://github.com/AnnaKhiz/HobbyArt-GULP',
-					projectLink: ''
+					projectLink: 'http://anna-khizhniak.site/portfolio/store-HobbyArt'
 				},
         {
           text: 'Hillel',
@@ -95,7 +95,7 @@ export default {
 					value: 'foxdigital',
 					previewLink: 'fox-digital.webp',
 					gitHubLink: 'https://github.com/AnnaKhiz/FoxDigital-2-colors',
-					projectLink: 'http://anna-khizhniak.site/portfolio/future-academy'
+					projectLink: 'http://anna-khizhniak.site/portfolio/practice-FoxDigital'
 				},
         {
           text: 'Future academy',
@@ -103,19 +103,15 @@ export default {
           value: 'futureacademy',
           previewLink: 'future-academy.webp',
           gitHubLink: 'https://github.com/AnnaKhiz/future-academy',
-          projectLink: 'http://anna-khizhniak.site/portfolio/practice-FoxDigital'
+          projectLink: 'http://anna-khizhniak.site/portfolio/future-academy'
         },
 			]
 		}
 	}
-  // props: {
-  //   msg: String
-  // }
+
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="sass">
-
 
 </style>

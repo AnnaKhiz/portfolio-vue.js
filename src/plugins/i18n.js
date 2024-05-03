@@ -5,8 +5,6 @@ import { uk } from '@/translate/uk';
 import { ru } from '@/translate/ru';
 
 
-
-
 i18next
   .init({
     debug: true,
