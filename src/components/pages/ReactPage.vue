@@ -17,16 +17,16 @@
           <div class="main__gallery-textBlock">
             <h3 class="main__gallery-textBlock-label">
               React & Redux <br>
-              <span class="lng-reactUserListLabel">{{ $t(`${checkedLanguage}.${item.subtitle}`) }}</span>
+              <span>{{ $t(`${checkedLanguage}.${item.subtitle}`) }}</span>
             </h3>
 
-            <p class="main__gallery-textBlock-info lng-descProjecReactUsers">
+            <p class="main__gallery-textBlock-info">
               {{ item.description }}
             </p>
 
             <a 
               :href="`http://anna-khizhniak.site/portfolio/${item.projectLink}`" 
-              class="main__gallery-textBlock-button lng-openProject"
+              class="main__gallery-textBlock-button"
             >
               {{ $t(`${checkedLanguage}.openProject`) }}
             </a>

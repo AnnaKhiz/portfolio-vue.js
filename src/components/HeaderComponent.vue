@@ -14,38 +14,29 @@
 			</div>
 			<div class="header__flexbox">
 				<div class="header__name">
-					<p class="lng-name">
-						{{ $t(`${checkedLanguage}.name`) }}
-					</p>
+					<p> {{ $t(`${checkedLanguage}.name`) }} </p>
 				</div>
 
-				<nav class="header__navigation " id="header-nav">
-					<ul class="nav-list">
-						<li><span @click="$router.push('/')" class="lng-portfolio" data-nav-link="index"> {{ $t(`${checkedLanguage}.portfolio`)  }}</span></li>
-						<li><span @click="$router.push('cms')" data-nav-link="cms">CMS</span></li>
-						<li><span @click="$router.push('react')" data-nav-link="react"> React</span></li>
-						<li><a :href="`./cv_${$i18next.language}.pdf`" target="_blank" class="lng-cv" data-nav-link="cv">{{ $t(`${checkedLanguage}.cv`) }}</a></li>
-						<li><a href="https://github.com/AnnaKhiz?tab=repositories" target="_blank" data-nav-link="github">GitHub</a></li>
-						<li><span @click="$router.push('edu')" class="lng-edu" data-nav-link="education">{{ $t(`${checkedLanguage}.edu`) }}</span></li>
-					</ul>
+				<nav class="header__navigation">
+          <ui-nav-list />
 				</nav>
 			</div>
 
 		</div>
-		<wave-component />
+		<ui-wave-animation />
 	</div>
-
-
 
 </template>
 
 <script>
-	
-  import WaveComponent from "@/components/UI/WaveComponent";
+
+  import UiNavList from "@/components/UI/uiNavList.vue";
+  import UiWaveAnimation from "@/components/UI/uiWaveAnimation.vue";
+
 
   export default {
     name: "HeaderComponent.vue",
-    components: {WaveComponent},
+    components: {UiWaveAnimation, UiNavList },
 		
     data() {
       return {
@@ -67,10 +58,6 @@
 				location.href = `${location.pathname}#${this.checkedLanguage}`;
 			}
 		},
-
-		mounted() {
-			this.checkedLanguage();
-		}
 		
   }
 </script>

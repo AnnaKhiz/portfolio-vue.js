@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router';
 import MainPage from "@/components/pages/MainPage";
 import CMSPage from "@/components/pages/CMSPage";
 import ReactPage from "@/components/pages/ReactPage";
-import CVPage from "@/components/pages/CVPage";
 import EduPage from "@/components/pages/EduPage";
 
 const routes = [
@@ -35,17 +34,6 @@ const routes = [
     props: true,
     meta: {
       title: 'React',
-      favicon: '',
-    },
-
-  },
-  {
-    path: '/cv',
-    name: 'cv',
-    component: CVPage,
-    props: true,
-    meta: {
-      title: 'CV',
       favicon: '',
     },
 

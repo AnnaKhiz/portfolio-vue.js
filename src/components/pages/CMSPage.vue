@@ -12,10 +12,10 @@
                           <h3 class="main__gallery-textBlock-label">
                               -- WordPress --
                           </h3>
-                          <p class="main__gallery-textBlock-info lng-descProjectWPMeliorit">
+                          <p class="main__gallery-textBlock-info">
                             {{ $t(`${this.checkedLanguage}.descProjectWPMeliorit`) }}
                           </p>
-                          <a href="https://anna-khizhniak.site/wp/" class="main__gallery-textBlock-button lng-openProject">
+                          <a href="https://anna-khizhniak.site/wp/" class="main__gallery-textBlock-button">
                             {{ $t(`${this.checkedLanguage}.openProject`) }}
                           </a>
                       </div>

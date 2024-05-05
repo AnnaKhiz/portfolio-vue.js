@@ -2,7 +2,7 @@
 	<div class="wrapper">
 		<main class="main">
 			<div class="container">
-				<h2 class="main__education-title lng-educationLabel">{{ $t(`${this.checkedLanguage}.educationLabel`) }}</h2>
+				<h2 class="main__education-title">{{ $t(`${this.checkedLanguage}.educationLabel`) }}</h2>
 				<div class="main__education-block">
 					<div
 						v-for="(sertificate, index) in sertificats"
