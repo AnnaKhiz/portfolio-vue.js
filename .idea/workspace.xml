@@ -28,21 +28,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ea6c733-69df-498e-a84f-f3fcd4e78aa1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/BurgerComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/uiNavList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/WaveComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/uiWaveAnimation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/CMSPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/CMSPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/CVPage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/EduPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/EduPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/MainPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/MainPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/ReactPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/ReactPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/burger.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/burger.sass" afterDir="false" />
-    </list>
+    <list default="true" id="6ea6c733-69df-498e-a84f-f3fcd4e78aa1" name="Default Changelist" comment="add burger menu" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +102,7 @@
       <workItem from="1713514689080" duration="269000" />
       <workItem from="1714051591070" duration="112000" />
       <workItem from="1714051776735" duration="5971000" />
-      <workItem from="1714900681350" duration="4090000" />
+      <workItem from="1714900681350" duration="4404000" />
     </task>
     <task id="LOCAL-00001" summary="add to git">
       <created>1713514713637</created>
@@ -132,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713514911320</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add burger menu">
+      <option name="closed" value="true" />
+      <created>1714904856416</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714904856416</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +158,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add to git" />
     <MESSAGE value="created project, add main page" />
-    <option name="LAST_COMMIT_MESSAGE" value="created project, add main page" />
+    <MESSAGE value="add burger menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="add burger menu" />
   </component>
 </project>
