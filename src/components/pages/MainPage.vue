@@ -1,5 +1,4 @@
 <template>
-
 	<div class="wrapper">
 		<main class="main">
 			<div class="container">
@@ -13,10 +12,10 @@
 							<h3 class="main__gallery-textBlock-label">
 								{{ project.text }}
 							</h3>
-							<p class="main__gallery-textBlock-info lng-descProjectHobbyart" >
+							<p class="main__gallery-textBlock-info" >
 								{{ project.description }}
 							</p>
-							<a :href="project.projectLink" target="_blank" class="main__gallery-textBlock-button lng-openProject">
+							<a :href="project.projectLink" target="_blank" class="main__gallery-textBlock-button">
 								{{ $t(`${this.checkedLanguage}.openProject`) }}
 							</a>
 						</div>

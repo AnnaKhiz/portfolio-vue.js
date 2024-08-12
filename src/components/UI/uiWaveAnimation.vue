@@ -17,7 +17,7 @@
 
 <script>
   export default {
-    name: "WaveComponent.vue"
+    name: "uiWaveAnimation.vue"
   }
 </script>
 
