@@ -4,9 +4,9 @@
     <div class="container">
       <div class="main__gallery">
 
-        <div 
-          class="main__gallery-item" 
-          v-for="item in reactItems" 
+        <div
+          class="main__gallery-item"
+          v-for="item in tasksItems"
           :key="item.projectLink"
         >
 
@@ -16,16 +16,15 @@
 
           <div class="main__gallery-textBlock">
             <h3 class="main__gallery-textBlock-label">
-              React & Redux <br>
-              <span>{{ $t(`${checkedLanguage}.${item.subtitle}`) }}</span>
+              {{ $t(`${checkedLanguage}.${item.label}`) }}
             </h3>
 
             <p class="main__gallery-textBlock-info">
               {{ item.description }}
             </p>
 
-            <a 
-              :href="`http://anna-khizhniak.site/portfolio/${item.projectLink}`" 
+            <a
+              :href="`http://anna-khizhniak.site/portfolio/${item.projectLink}`"
               class="main__gallery-textBlock-button"
             >
               {{ $t(`${checkedLanguage}.openProject`) }}
@@ -33,8 +32,8 @@
           </div>
 
           <div class="main__gallery-textBlock right">
-            <a 
-              :href="`${item.github}`" target="_blank" 
+            <a
+              :href="`${item.github}`" target="_blank"
               class="main__gallery-textBlock-button right"
             >
               GitHub
@@ -53,31 +52,35 @@
     name: "ReactPage.vue",
     data() {
       return {
-        reactItems: [
-          { 
-            label: 'React & Redux', 
-            preview: 'react-users.webp', 
-            subtitle: 'reactUserListLabel',
-            description: 'java script, React, Redux, Rest API', 
+        tasksItems: [
+          {
+            preview: 'react-users.webp',
+            label: 'smallUserListLabel',
+            description: 'JavaScript, React, Redux, Rest API',
             projectLink: 'react-user-list',
-            github: 'https://github.com/AnnaKhiz/Hillel-React-practice' 
+            github: 'https://github.com/AnnaKhiz/Hillel-React-practice'
           },
-          { 
-            label: 'React & Redux', 
-            preview: 'promo-generator.webp', 
-            subtitle: 'reactPromoLabel',
-            description: 'JavaScript, React, Redux', 
+          {
+            preview: 'promo-generator.webp',
+            label: 'smallPromoLabel',
+            description: 'JavaScript, React, Redux',
             projectLink: 'react-promo',
-            github: 'https://github.com/AnnaKhiz/promo-react' 
+            github: 'https://github.com/AnnaKhiz/promo-react'
           },
-          { 
-            label: 'React & Redux', 
-            preview: 'react-currency.webp', 
-            subtitle: 'reactExchangeLabel',
-            description: 'JavaScript, React, Redux, RestAPI, SASS, HTML', 
+          {
+            preview: 'react-currency.webp',
+            label: 'smallExchangeLabel',
+            description: 'JavaScript, React, Redux, RestAPI, SASS, HTML',
             projectLink: 'react-exchange',
-            github: 'https://github.com/AnnaKhiz/react-currency-exchange' 
-          }
+            github: 'https://github.com/AnnaKhiz/react-currency-exchange'
+          },
+					{
+						preview: 'spin-wheel.webp',
+						label: 'smallSpinWheelLabel',
+						description: 'Vanilla JavaScript, HTML, CSS',
+						projectLink: 'spin-wheel',
+						github: 'https://github.com/AnnaKhiz/spin_wheel'
+					},
         ]
       }
     },
@@ -85,7 +88,7 @@
       checkedLanguage() {
 				return this.$i18next.language
       },
-      
+
     }
   }
 </script>

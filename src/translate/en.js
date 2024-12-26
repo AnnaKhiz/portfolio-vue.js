@@ -14,9 +14,10 @@ export const en = {
   "descProjectFoxDigital": "flexbox, jquery, java script, swippers, switcher for 2 color schemes, mobile view",
   "descProjectFutureAcademy": "java script, flexbox, grid, bootstrap, swiper, tabs",
   "descProjectWPMeliorit": "wordpress, flexbox, jquery, swippers, mobile view",
-  "reactUserListLabel": "(user list)",
-  "reactPromoLabel": "(promo-code generator)",
-  "reactExchangeLabel": "(currency exchange)",
+  "smallUserListLabel": "User list",
+  "smallPromoLabel": "Promo-code generator",
+  "smallExchangeLabel": "Currency exchange",
+	"smallSpinWheelLabel": "Spin wheel",
   "experienceLabel": "Experience",
   "educationLabel": "Education",
   "viewDetails": "View details"

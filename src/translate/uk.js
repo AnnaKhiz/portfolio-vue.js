@@ -15,9 +15,10 @@ export const uk = {
   "descProjectFutureAcademy": "флексбокс, грід, java script, bootstrap, слайдер, таби",
   "descProjectWPMeliorit": "wordpress, флексбокс, jquery, слайдер, адаптивний дизайн",
   "descProjecReactUsers": "java script, React, Redux, Rest API",
-  "reactUserListLabel": "(список користувачів)",
-  "reactPromoLabel": "(генератор промо-кодів)",
-  "reactExchangeLabel": "(обмін валют)",
+  "smallUserListLabel": "Список користувачів",
+  "smallPromoLabel": "Генератор промо-кодів",
+  "smallExchangeLabel": "Обмін валют",
+	"smallSpinWheelLabel": "Колесо фортуни",
   "experienceLabel": "Досвід",
   "educationLabel": "Освіта",
   "viewDetails": "Подробиці"
