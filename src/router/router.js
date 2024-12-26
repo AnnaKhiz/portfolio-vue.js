@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import MainPage from "@/components/pages/MainPage";
-import CMSPage from "@/components/pages/CMSPage";
-import ReactPage from "@/components/pages/ReactPage";
+import SmallTasksPage from "@/components/pages/SmallTasksPage.vue";
 import EduPage from "@/components/pages/EduPage";
 
 const routes = [
@@ -17,23 +16,12 @@ const routes = [
 
   },
   {
-    path: '/cms',
-    name: 'cms',
-    component: CMSPage,
+    path: '/small',
+    name: 'small',
+    component: SmallTasksPage,
     props: true,
     meta: {
-      title: 'CMS',
-      favicon: '',
-    },
-
-  },
-  {
-    path: '/react',
-    name: 'react',
-    component: ReactPage,
-    props: true,
-    meta: {
-      title: 'React',
+      title: 'Small Tasks',
       favicon: '',
     },
 
@@ -54,7 +42,7 @@ const routes = [
 
 const router = createRouter({
   routes,
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory('/'),
 
 })
 // eslint-disable-next-line
