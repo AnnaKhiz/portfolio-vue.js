@@ -2,6 +2,7 @@ export const en = {
   "title": "Khizhniak Anna - Portfolio",
   "name": "Khizhniak Anna",
   "portfolio": "Portfolio",
+	"small": "Small tasks",
   "cv": "CV",
   "edu": "Education/Experience",
   "openProject": "Open project",

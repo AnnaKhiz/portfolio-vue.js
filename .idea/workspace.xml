@@ -28,7 +28,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ea6c733-69df-498e-a84f-f3fcd4e78aa1" name="Default Changelist" comment="add burger menu" />
+    <list default="true" id="6ea6c733-69df-498e-a84f-f3fcd4e78aa1" name="Default Changelist" comment="add burger menu + build">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cv_en.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/cv_en.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cv_ru.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/cv_ru.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cv_uk.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/uiNavList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/uiNavList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/MainPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/MainPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,9 +64,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2fJMNUH8Keuib7HbVl4aNiYgCqL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -67,6 +76,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "dev",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,6 +86,11 @@
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ],
     "vue.recent.templates": [
       "Vue Composition API Component"
     ]
@@ -94,7 +109,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6ea6c733-69df-498e-a84f-f3fcd4e78aa1" name="Default Changelist" comment="" />
+      <changelist id="" name="Default Changelist" comment="" />
       <created>1713514687702</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -102,7 +117,13 @@
       <workItem from="1713514689080" duration="269000" />
       <workItem from="1714051591070" duration="112000" />
       <workItem from="1714051776735" duration="5971000" />
-      <workItem from="1714900681350" duration="4404000" />
+      <workItem from="1714900681350" duration="4580000" />
+      <workItem from="1714927663846" duration="599000" />
+      <workItem from="1715784914139" duration="3540000" />
+      <workItem from="1725188530166" duration="1919000" />
+      <workItem from="1725356472157" duration="599000" />
+      <workItem from="1727689045913" duration="599000" />
+      <workItem from="1735213488025" duration="658000" />
     </task>
     <task id="LOCAL-00001" summary="add to git">
       <created>1713514713637</created>
@@ -126,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714904856416</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add burger menu + build">
+      <option name="closed" value="true" />
+      <created>1714905222941</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714905222941</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +188,7 @@
     <MESSAGE value="add to git" />
     <MESSAGE value="created project, add main page" />
     <MESSAGE value="add burger menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="add burger menu" />
+    <MESSAGE value="add burger menu + build" />
+    <option name="LAST_COMMIT_MESSAGE" value="add burger menu + build" />
   </component>
 </project>

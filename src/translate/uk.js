@@ -4,6 +4,7 @@ export const uk = {
   "portfolio": "Портфолiо",
   "cv": "Резюме",
   "edu": "Освіта/Досвід",
+	"small": "Маленькi задачi",
   "openProject": "Відкрити сайт",
   "descProjectHobbyart": "флексбокс, грід, jquery, java script, слайдер, перемикач, анімація, адаптивний дизайн",
   "descProjectHillel": "флексбокс, грід, jquery, java script, слайдер, перемикач, адаптивний дизайн, regexp, валідація форм",

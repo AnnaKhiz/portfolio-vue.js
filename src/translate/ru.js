@@ -3,6 +3,7 @@ export const ru = {
   "name": "Хижняк Анна",
   "portfolio": "Портфолио",
   "cv": "Резюме",
+	"small": "Маленькие задачи",
   "edu": "Образование/Опыт",
   "openProject": "Открыть сайт",
   "descProjectHobbyart": "флексбокс, грид, jquery, java script, слайдер, переключатель, анимация, адаптивный дизайн",

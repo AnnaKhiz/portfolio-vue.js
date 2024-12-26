@@ -56,14 +56,14 @@ export default {
 					gitHubLink: 'https://github.com/AnnaKhiz/HobbyArt-GULP',
 					projectLink: 'http://anna-khizhniak.site/portfolio/store-HobbyArt'
 				},
-        {
-          text: 'Hillel',
-					description: this.$t(`${this.checkedLanguage}.descProjectHillel`),
-					value: 'hillel',
-          previewLink: 'final-hillel.webp',
-          gitHubLink: 'https://github.com/AnnaKhiz/Hillel-final',
-          projectLink: 'http://anna-khizhniak.site/portfolio/final-hillel/'
-				},
+        // {
+        //   text: 'Hillel',
+				// 	description: this.$t(`${this.checkedLanguage}.descProjectHillel`),
+				// 	value: 'hillel',
+        //   previewLink: 'final-hillel.webp',
+        //   gitHubLink: 'https://github.com/AnnaKhiz/Hillel-final',
+        //   projectLink: 'http://anna-khizhniak.site/portfolio/final-hillel/'
+				// },
         {
           text: 'Localize',
 					description: this.$t(`${this.checkedLanguage}.descProjectLocalize`),
@@ -80,14 +80,14 @@ export default {
 					gitHubLink: 'https://github.com/AnnaKhiz/Meliorit',
 					projectLink: 'http://anna-khizhniak.site/portfolio/meliorit/'
 				},
-        {
-          text: 'Beauty',
-					description: this.$t(`${this.checkedLanguage}.descProjectBeauty`),
-					value: 'beauty',
-					previewLink: 'beauty.webp',
-					gitHubLink: 'https://github.com/AnnaKhiz/Beauty-Site',
-					projectLink: 'http://anna-khizhniak.site/portfolio/beauty/'
-				},
+        // {
+        //   text: 'Beauty',
+				// 	description: this.$t(`${this.checkedLanguage}.descProjectBeauty`),
+				// 	value: 'beauty',
+				// 	previewLink: 'beauty.webp',
+				// 	gitHubLink: 'https://github.com/AnnaKhiz/Beauty-Site',
+				// 	projectLink: 'http://anna-khizhniak.site/portfolio/beauty/'
+				// },
         {
           text: 'FoxDigital',
 					description: this.$t(`${this.checkedLanguage}.descProjectFoxDigital`),
