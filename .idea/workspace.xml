@@ -30,13 +30,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6ea6c733-69df-498e-a84f-f3fcd4e78aa1" name="Default Changelist" comment="add burger menu + build">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/cv_en.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/cv_en.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/cv_ru.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/cv_ru.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/cv_uk.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/uiNavList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/uiNavList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/MainPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/MainPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,30 +65,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dev",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/home/anny/Programms/PhpStorm/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/anny/Programms/PhpStorm/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ],
-    "vue.recent.templates": [
-      "Vue Composition API Component"
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -109,7 +102,6 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="" name="Default Changelist" comment="" />
       <created>1713514687702</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -123,7 +115,9 @@
       <workItem from="1725188530166" duration="1919000" />
       <workItem from="1725356472157" duration="599000" />
       <workItem from="1727689045913" duration="599000" />
-      <workItem from="1735213488025" duration="3241000" />
+      <workItem from="1735213488025" duration="3699000" />
+      <workItem from="1735301006075" duration="599000" />
+      <workItem from="1737560569042" duration="827000" />
     </task>
     <task id="LOCAL-00001" summary="add to git">
       <created>1713514713637</created>
@@ -163,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735214181996</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added spin-wheel task">
+      <option name="closed" value="true" />
+      <created>1735217082221</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735217082221</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +200,7 @@
     <MESSAGE value="add burger menu" />
     <MESSAGE value="add burger menu + build" />
     <MESSAGE value="renamed reacp page on Small tasks page, updated header" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed reacp page on Small tasks page, updated header" />
+    <MESSAGE value="added spin-wheel task" />
+    <option name="LAST_COMMIT_MESSAGE" value="added spin-wheel task" />
   </component>
 </project>

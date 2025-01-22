@@ -81,6 +81,13 @@
 						projectLink: 'spin-wheel',
 						github: 'https://github.com/AnnaKhiz/spin_wheel'
 					},
+					{
+						preview: 'deck-cards.png',
+						label: 'smallDeckCardsLabel',
+						description: 'Vanilla JavaScript, HTML, CSS',
+						projectLink: 'cards-deck',
+						github: 'https://github.com/AnnaKhiz/deck-of-cards'
+					},
         ]
       }
     },

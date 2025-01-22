@@ -19,6 +19,7 @@ export const ru = {
   "smallPromoLabel": "Генератор промо-кодов",
   "smallExchangeLabel": "Обмен валют",
 	"smallSpinWheelLabel": "Колесо фортуны",
+	"smallDeckCardsLabel": "Колода карт",
   "experienceLabel": "Опыт",
   "educationLabel": "Образование",
   "viewDetails": "Подробности"

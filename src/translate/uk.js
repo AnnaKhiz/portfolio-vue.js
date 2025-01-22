@@ -19,6 +19,7 @@ export const uk = {
   "smallPromoLabel": "Генератор промо-кодів",
   "smallExchangeLabel": "Обмін валют",
 	"smallSpinWheelLabel": "Колесо фортуни",
+	"smallDeckCardsLabel": "Колода карт",
   "experienceLabel": "Досвід",
   "educationLabel": "Освіта",
   "viewDetails": "Подробиці"
