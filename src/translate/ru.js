@@ -20,6 +20,7 @@ export const ru = {
   "smallExchangeLabel": "Обмен валют",
 	"smallSpinWheelLabel": "Колесо фортуны",
 	"smallDeckCardsLabel": "Колода карт",
+	"smallDashboardLabel": "Дашборд",
   "experienceLabel": "Опыт",
   "educationLabel": "Образование",
   "viewDetails": "Подробности"

@@ -20,6 +20,7 @@ export const uk = {
   "smallExchangeLabel": "Обмін валют",
 	"smallSpinWheelLabel": "Колесо фортуни",
 	"smallDeckCardsLabel": "Колода карт",
+	"smallDashboardLabel": "Дашборд",
   "experienceLabel": "Досвід",
   "educationLabel": "Освіта",
   "viewDetails": "Подробиці"

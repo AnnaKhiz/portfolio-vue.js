@@ -88,6 +88,13 @@
 						projectLink: 'cards-deck',
 						github: 'https://github.com/AnnaKhiz/deck-of-cards'
 					},
+					{
+						preview: 'dashboard.webp',
+						label: 'smallDashboardLabel',
+						description: 'Vanilla JavaScript, HTML, CSS, Bootstrap, Chart.js, Webpack',
+						projectLink: 'dashboard',
+						github: 'https://github.com/AnnaKhiz/mydigitalconstruct_final_project'
+					},
         ]
       }
     },
