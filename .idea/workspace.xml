@@ -28,13 +28,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ea6c733-69df-498e-a84f-f3fcd4e78aa1" name="Default Changelist" comment="add burger menu + build">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/SmallTasksPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/SmallTasksPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translate/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/translate/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translate/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/translate/ru.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/translate/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/translate/uk.js" afterDir="false" />
-    </list>
+    <list default="true" id="6ea6c733-69df-498e-a84f-f3fcd4e78aa1" name="Default Changelist" comment="added dashboard project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +73,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/home/anny/Programms/WebStorm/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "ts.external.directory.path": "/home/anny/Programms/PhpStorm/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -93,6 +87,13 @@
     ]
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-b4dcf6bb9de9-com.jetbrains.php.sharedIndexes-PS-233.13135.108" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -116,7 +117,8 @@
       <workItem from="1735301006075" duration="599000" />
       <workItem from="1737560569042" duration="879000" />
       <workItem from="1737648533221" duration="129000" />
-      <workItem from="1738003758438" duration="805000" />
+      <workItem from="1738003758438" duration="818000" />
+      <workItem from="1738004701805" duration="68000" />
     </task>
     <task id="LOCAL-00001" summary="add to git">
       <created>1713514713637</created>
@@ -172,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737561433893</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added dashboard project">
+      <option name="closed" value="true" />
+      <created>1738004571461</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738004571461</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +219,7 @@
     <MESSAGE value="renamed reacp page on Small tasks page, updated header" />
     <MESSAGE value="added spin-wheel task" />
     <MESSAGE value="added deck-of-cards task" />
-    <option name="LAST_COMMIT_MESSAGE" value="added deck-of-cards task" />
+    <MESSAGE value="added dashboard project" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dashboard project" />
   </component>
 </project>
