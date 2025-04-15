@@ -18,6 +18,8 @@ export const en = {
   "smallPromoLabel": "Promo-code generator",
   "smallExchangeLabel": "Currency exchange",
 	"smallSpinWheelLabel": "Spin wheel",
+	"smallDeckCardsLabel": "Deck of cards",
+	"smallDashboardLabel": "Dashboard",
   "experienceLabel": "Experience",
   "educationLabel": "Education",
   "viewDetails": "View details"

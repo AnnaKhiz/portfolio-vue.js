@@ -43,11 +43,12 @@
 		data() {
       return {
         sertificats: [
+					{ link: '', image: 'sertificat-5.png', additionalImage: '', details: false },
+					{ link: '', image: 'js.jpg', additionalImage: '', details: false },
 					{ link: 'https://certificate.ithillel.ua/view/29949260', image: 'sertificat-1.png', additionalImage: '', details: true },
           { link: 'https://certificate.ithillel.ua/view/49351811', image: 'sertificat-2.png', additionalImage: '', details: true },
           { link: 'https://certificate.ithillel.ua/view/62913226', image: 'sertificat-3.png', additionalImage: '', details: true },
           { link: 'https://certificate.ithillel.ua/view/26941795', image: 'sertificat-4.png', additionalImage: '', details: true },
-          { link: '', image: 'js.jpg', additionalImage: '', details: false },
           { link: '', image: 'diploma-bac-1.jpg', additionalImage: 'diploma-bac-2.jpg', details: false },
           { link: '', image: 'diploma-spec-1.jpg', additionalImage: 'diploma-spec-2.jpg', details: false },
 				]

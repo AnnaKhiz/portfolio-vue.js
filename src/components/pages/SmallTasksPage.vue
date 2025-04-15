@@ -81,6 +81,20 @@
 						projectLink: 'spin-wheel',
 						github: 'https://github.com/AnnaKhiz/spin_wheel'
 					},
+					{
+						preview: 'deck-cards.png',
+						label: 'smallDeckCardsLabel',
+						description: 'Vanilla JavaScript, HTML, CSS',
+						projectLink: 'cards-deck',
+						github: 'https://github.com/AnnaKhiz/deck-of-cards'
+					},
+					{
+						preview: 'dashboard.webp',
+						label: 'smallDashboardLabel',
+						description: 'Vanilla JavaScript, HTML, CSS, Bootstrap, Chart.js, Webpack',
+						projectLink: 'dashboard',
+						github: 'https://github.com/AnnaKhiz/mydigitalconstruct_final_project'
+					},
         ]
       }
     },
