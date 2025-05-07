@@ -6,7 +6,7 @@ export const uk = {
   "edu": "Освіта/Досвід",
 	"small": "Маленькi задачi",
   "openProject": "Відкрити сайт",
-  "descProjectHobbyart": "флексбокс, грід, jquery, java script, слайдер, перемикач, анімація, адаптивний дизайн",
+  "descProjectHobbyart": "frontend+backend. node.js+vue.js. флексбокс, грід, jquery, java script, слайдер, перемикач, анімація, адаптивний дизайн",
   "descProjectHillel": "флексбокс, грід, jquery, java script, слайдер, перемикач, адаптивний дизайн, regexp, валідація форм",
   "descProjectLocalize": "флексбокс, адаптивний дизайн, jquery",
   "descProjectMeliorit": "флексбокс, jquery, слайдер, адаптивний дизайн",

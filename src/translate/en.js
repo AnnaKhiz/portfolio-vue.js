@@ -6,7 +6,7 @@ export const en = {
   "cv": "CV",
   "edu": "Education/Experience",
   "openProject": "Open project",
-  "descProjectHobbyart": "flexbox, grid, jquery, java script, swippers, switcher, mobile view, animation",
+  "descProjectHobbyart": "frontend+backend. node.js+vue.js. flexbox, grid, javascript, swippers, switcher, mobile view, animation",
   "descProjectHillel": "flexbox, jquery, swippers, switcher, mobile view, modal, regexp, form validation",
   "descProjectLocalize": "flexbox, mobile view, jquery",
   "descProjectMeliorit": "flexbox, jquery, swippers, mobile view",

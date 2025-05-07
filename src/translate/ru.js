@@ -6,7 +6,7 @@ export const ru = {
 	"small": "Маленькие задачи",
   "edu": "Образование/Опыт",
   "openProject": "Открыть сайт",
-  "descProjectHobbyart": "флексбокс, грид, jquery, java script, слайдер, переключатель, анимация, адаптивный дизайн",
+  "descProjectHobbyart": "frontend+backend. node.js+vue.js. флексбокс, грид, jquery, java script, слайдер, переключатель, анимация, адаптивный дизайн",
   "descProjectHillel": "флексбокс, грид, jquery, java script, слайдер, переключатель, адаптивный дизайн, regexp, валидация форм",
   "descProjectLocalize": "флексбокс, адаптивный дизайн, jquery",
   "descProjectMeliorit": "флексбокс, jquery, слайдер, адаптивный дизайн",

@@ -53,8 +53,8 @@ export default {
 					description: this.$t(`${this.checkedLanguage}.descProjectHobbyart`),
 					value: 'hobbyart',
 					previewLink: 'hobby-art.webp',
-					gitHubLink: 'https://github.com/AnnaKhiz/HobbyArt-GULP',
-					projectLink: 'http://anna-khizhniak.site/portfolio/store-HobbyArt'
+					gitHubLink: 'https://github.com/AnnaKhiz/hobby_art_vue',
+					projectLink: 'https://hobby-art-vue.vercel.app/'
 				},
         // {
         //   text: 'Hillel',
